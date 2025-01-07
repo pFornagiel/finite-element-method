@@ -1,0 +1,23 @@
+.page-button {
+  width: 100%;
+  font-family: Lora, system-ui, sans-serif;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px transparent solid;
+
+  transition: border-bottom 0.3s ease-out;
+
+  h3 {
+    transition: color 0.3s ease-out;
+    text-align: center;
+    color: var(--gray);
+  }
+}
+
+.active {
+  border-bottom-color: var(--black);
+  h3 {
+    color: var(--black);
+  }
+}

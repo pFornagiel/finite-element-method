@@ -1,0 +1,27 @@
+.footer-body {
+  text-align: center;
+
+  & p {
+    margin: 0.5rem 0;
+  }
+}
+
+.footer-links {
+  & a {
+    margin: 0 0.5rem;
+
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      margin-right: 0.25rem;
+    }
+  }
+}
+
+.acknowledgment {
+  font-weight: bold;
+  font-size: medium;
+}
