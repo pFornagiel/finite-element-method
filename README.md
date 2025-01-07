@@ -2,13 +2,17 @@
 
 Single-page application, providing implementation of the Finite Element Method solver for acoustic vibrations of a material layer differential equation, together with problem description and resulting curve plotting. Project for the Differential Equations course at AGH University of Krakow.
 
-Available on [Github Pages](https://pfornagiel.github.io/finite-element-method/).
+The project is divided into following components:
+- `FEM`, root directory of Finite Element Method numerical solver, written in Typescript
+- `frontend`, root directory of the web UI, written using ReactJS, CSS and Typescript
+
+Available on [Github Pages.](https://pfornagiel.github.io/finite-element-method/)
 
 ### Technologies used:
 - Typescript
 - React
 - Vite
-
+- 
 ### Running locally
 - Clone the repository
 ```bash
@@ -24,4 +28,4 @@ npm install
 ```bash
 npm run dev
 ```
-- Vite will display a local server URL, which you can open in your browser.
+- Open local server URL displayed in console in browser of choice
