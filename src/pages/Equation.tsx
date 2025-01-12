@@ -13,7 +13,7 @@ const Equation = () => {
       <Latex>{String.raw`$$\frac{du(2)}{dx} - u(2) = 0$$`}</Latex>
       <p>
         Where <Latex>{String.raw`$u(x)$`}</Latex> is a function and <Latex>{String.raw`$u(x) \in \mathbb{R}$`}</Latex>.
-        In order to find a solution to the problem using <span style={{fontWeight: 600}}>Finite Elements Method</span>, the equation has to be expressed in its weak form.
+        In order to find a solution to the problem using <span style={{fontWeight: 600}}>Finite Element Method</span>, the equation has to be expressed in its weak form.
       </p>
       
       <h3>Weak Form Derivation</h3>

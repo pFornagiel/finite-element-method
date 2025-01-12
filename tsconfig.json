@@ -6,7 +6,6 @@
   "compilerOptions": {
     // "baseUrl": ".",
     "paths": {
-      "FEM": ["./FEM/*"],
       "*": ["./frontend/src/*"],
     }
   }

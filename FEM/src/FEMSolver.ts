@@ -105,6 +105,7 @@ class FEMSolver{
   public solve(): FEMResult{
     // Calculate LU decomposition for B using partial pivoting, then
     // solve using forward substition
+    console.log(math.lusolve(this.B, this.L))
     return {
       coefficientArray: math.lusolve(this.B, this.L) as number[],
       delta: this.delta,
